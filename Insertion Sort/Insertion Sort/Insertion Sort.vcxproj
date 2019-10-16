@@ -115,7 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
+    <ClCompile Include="UsefulHeap.cpp" />
+    <ClCompile Include="병합정렬.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UsefulHeap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
